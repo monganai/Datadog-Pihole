@@ -1,1 +1,17 @@
 metric_name,metric_type,interval,unit_name,per_unit_name,description,orientation,integration,short_name
+Queries forwarded,gauge,defined_test_interval,count,test_interval,queries_not_blocked,Pihole,pihole.queries_forwarded
+Domains being blocked,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Ads percentage today,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Ads blocked today,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+DNS queries today,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Total clients,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Unique clients,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Queries cached,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Unique Domains,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Top Queries,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Top Ads,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Top clients,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Forward destinations,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Query type,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+Reply type,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
+DNS queries by host,gauge,defined_test_interval,count,test_interval,TODO,Pihole,pihole.metric_name
