@@ -1,0 +1,85 @@
+action: py27, msg: getenv
+cwd: /home/aidan/dd/integrations-extras/pihole
+cmd: /home/aidan/dd/integrations-extras/pihole/.tox/py27/bin/python -m pip install 'datadog-checks-base[deps]>=6.6.0' -rrequirements-dev.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting datadog-checks-base[deps]>=6.6.0
+  Using cached datadog_checks_base-10.3.0-py2.py3-none-any.whl (144 kB)
+Collecting datadog-checks-dev
+  Using cached datadog_checks_dev-2.4.0-py2.py3-none-any.whl (207 kB)
+Collecting contextlib2==0.5.5; python_version < "3.0" and extra == "deps"
+  Using cached contextlib2-0.5.5-py2.py3-none-any.whl (8.1 kB)
+Processing /home/aidan/.cache/pip/wheels/f2/53/49/6cb6a21d73ede29ca11cc751a5098fbc2ab7b4e9120a5de7fc/prometheus_client-0.3.0-py2-none-any.whl
+Processing /home/aidan/.cache/pip/wheels/5c/e6/3e/63447e943ae19ffc2a8f96cad940775696fb82b9926ba6373b/simplejson-3.6.5-cp27-cp27mu-linux_x86_64.whl
+Collecting requests==2.22.0; extra == "deps"
+  Using cached requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting ipaddress==1.0.22; python_version < "3.0" and extra == "deps"
+  Using cached ipaddress-1.0.22-py2.py3-none-any.whl (18 kB)
+Processing /home/aidan/.cache/pip/wheels/64/78/84/8c6d0645e7bc54fd0d07b6740733b9818490ce4758b91dd835/uptime-3.0.1-cp27-cp27mu-linux_x86_64.whl
+Processing /home/aidan/.cache/pip/wheels/a2/39/f3/2601aa6630b855ea35bc2a13ae08ddb71edab0b053d750ef8a/PyYAML-5.1-cp27-cp27mu-linux_x86_64.whl
+Collecting protobuf==3.7.0; extra == "deps"
+  Using cached protobuf-3.7.0-cp27-cp27mu-manylinux1_x86_64.whl (1.2 MB)
+Collecting six==1.12.0; extra == "deps"
+  Using cached six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting binary==1.0.0; extra == "deps"
+  Using cached binary-1.0.0-py2.py3-none-any.whl (9.2 kB)
+Processing /home/aidan/.cache/pip/wheels/7f/2f/4c/5142fdf2c3e524e069536b213fb5f576990ca7cee9c734b19d/ddtrace-0.13.0-py2.py3-none-any.whl
+Collecting pytest-cov>=2.6.1
+  Using cached pytest_cov-2.8.1-py2.py3-none-any.whl (18 kB)
+Processing /home/aidan/.cache/pip/wheels/b1/01/e5/35c9ef411b3458ef3827b1ff4c9f5f736c643073a92de0f793/shutilwhich-1.1.0-py2-none-any.whl
+Collecting coverage>=5.0.3
+  Using cached coverage-5.0.3-cp27-cp27mu-manylinux1_x86_64.whl (223 kB)
+Collecting pytest-benchmark>=3.2.1
+  Using cached pytest_benchmark-3.2.3-py2.py3-none-any.whl (49 kB)
+Collecting pytest
+  Using cached pytest-4.6.9-py2.py3-none-any.whl (231 kB)
+Collecting mock
+  Using cached mock-3.0.5-py2.py3-none-any.whl (25 kB)
+Collecting pytest-mock
+  Using cached pytest_mock-2.0.0-py2.py3-none-any.whl (10 kB)
+Processing /home/aidan/.cache/pip/wheels/e3/c7/6a/434fc8f2936acc4964ded8478435a8ef7c69eb41df7007a49f/subprocess32-3.5.4-cp27-cp27mu-linux_x86_64.whl
+Processing /home/aidan/.cache/pip/wheels/f9/56/38/19f36601aa467e1093012b7993246e803c6a03f204082fa046/psutil-5.7.0-cp27-cp27mu-linux_x86_64.whl
+Collecting certifi>=2017.4.17
+  Using cached certifi-2019.11.28-py2.py3-none-any.whl (156 kB)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Using cached urllib3-1.25.8-py2.py3-none-any.whl (125 kB)
+Collecting idna<2.9,>=2.5
+  Using cached idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting chardet<3.1.0,>=3.0.2
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied: setuptools in ./.tox/py27/lib/python2.7/site-packages (from protobuf==3.7.0; extra == "deps"->datadog-checks-base[deps]>=6.6.0) (44.0.0)
+Processing /home/aidan/.cache/pip/wheels/c0/72/78/e8f740a4658a7d7324515b608f758e861cbbbfb3b54c9dd481/wrapt-1.12.0-cp27-cp27mu-linux_x86_64.whl
+Processing /home/aidan/.cache/pip/wheels/5d/c9/1b/9b1fa0f78053643f39214dc16bab19f38c583adaed6d42aba5/msgpack_python-0.5.6-cp27-cp27mu-linux_x86_64.whl
+Collecting pathlib2; python_version < "3.4"
+  Using cached pathlib2-2.3.5-py2.py3-none-any.whl (18 kB)
+Processing /home/aidan/.cache/pip/wheels/7c/28/05/a4a3b92cf70c5e59b24d7100793d5f52a5ba4dd40c6a9158ff/py_cpuinfo-5.0.0-py2-none-any.whl
+Processing /home/aidan/.cache/pip/wheels/35/09/c5/ee9b03a33b5314613dfaa51fcb5c23642392c2482328155019/statistics-1.0.3.5-py2-none-any.whl
+Collecting packaging
+  Using cached packaging-20.1-py2.py3-none-any.whl (36 kB)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting funcsigs>=1.0; python_version < "3.0"
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+Collecting importlib-metadata>=0.12; python_version < "3.8"
+  Using cached importlib_metadata-1.5.0-py2.py3-none-any.whl (30 kB)
+Collecting atomicwrites>=1.0
+  Using cached atomicwrites-1.3.0-py2.py3-none-any.whl (5.9 kB)
+Collecting py>=1.5.0
+  Using cached py-1.8.1-py2.py3-none-any.whl (83 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.1.8-py2.py3-none-any.whl (17 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7"
+  Using cached more_itertools-5.0.0-py2-none-any.whl (52 kB)
+Processing /home/aidan/.cache/pip/wheels/58/2c/26/52406f7d1f19bcc47a6fbd1037a5f293492f5cf1d58c539edb/scandir-1.10.0-cp27-cp27mu-linux_x86_64.whl
+Collecting docutils>=0.3
+  Using cached docutils-0.16-py2.py3-none-any.whl (548 kB)
+Collecting pyparsing>=2.0.2
+  Using cached pyparsing-2.4.6-py2.py3-none-any.whl (67 kB)
+Collecting zipp>=0.5
+  Using cached zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Collecting configparser>=3.5; python_version < "3"
+  Using cached configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+ERROR: datadog-checks-dev 2.4.0 has requirement PyYAML>=5.3, but you'll have pyyaml 5.1 which is incompatible.
+Installing collected packages: contextlib2, prometheus-client, simplejson, certifi, urllib3, idna, chardet, requests, ipaddress, uptime, pyyaml, six, protobuf, binary, wrapt, msgpack-python, ddtrace, datadog-checks-base, coverage, scandir, pathlib2, pyparsing, packaging, zipp, configparser, importlib-metadata, pluggy, funcsigs, atomicwrites, py, wcwidth, attrs, more-itertools, pytest, pytest-cov, shutilwhich, py-cpuinfo, docutils, statistics, pytest-benchmark, mock, pytest-mock, subprocess32, psutil, datadog-checks-dev
+Successfully installed atomicwrites-1.3.0 attrs-19.3.0 binary-1.0.0 certifi-2019.11.28 chardet-3.0.4 configparser-4.0.2 contextlib2-0.5.5 coverage-5.0.3 datadog-checks-base-10.3.0 datadog-checks-dev-2.4.0 ddtrace-0.13.0 docutils-0.16 funcsigs-1.0.2 idna-2.8 importlib-metadata-1.5.0 ipaddress-1.0.22 mock-3.0.5 more-itertools-5.0.0 msgpack-python-0.5.6 packaging-20.1 pathlib2-2.3.5 pluggy-0.13.1 prometheus-client-0.3.0 protobuf-3.7.0 psutil-5.7.0 py-1.8.1 py-cpuinfo-5.0.0 pyparsing-2.4.6 pytest-4.6.9 pytest-benchmark-3.2.3 pytest-cov-2.8.1 pytest-mock-2.0.0 pyyaml-5.1 requests-2.22.0 scandir-1.10.0 shutilwhich-1.1.0 simplejson-3.6.5 six-1.12.0 statistics-1.0.3.5 subprocess32-3.5.4 uptime-3.0.1 urllib3-1.25.8 wcwidth-0.1.8 wrapt-1.12.0 zipp-1.2.0

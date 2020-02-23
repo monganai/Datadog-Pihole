@@ -1,0 +1,4 @@
+action: py27, msg: getenv
+cwd: /home/aidan/dd/integrations-extras/pihole/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
+created virtual environment in 140ms CPython2Posix(dest=/home/aidan/dd/integrations-extras/pihole/.tox/py27, clear=False, global=False) with seeder FromAppData pip=latest setuptools=latest wheel=latest app_data_dir=/home/aidan/.local/share/virtualenv/seed-v1 via=copy

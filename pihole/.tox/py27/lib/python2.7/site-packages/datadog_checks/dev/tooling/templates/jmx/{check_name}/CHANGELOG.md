@@ -1,0 +1,1 @@
+# CHANGELOG - {integration_name}

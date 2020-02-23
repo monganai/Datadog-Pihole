@@ -1,0 +1,38 @@
+action: py37, msg: envreport
+cwd: /home/aidan/dd/integrations-extras/pihole
+cmd: /home/aidan/dd/integrations-extras/pihole/.tox/py37/bin/python -m pip freeze
+attrs==19.3.0
+binary==1.0.0
+certifi==2019.11.28
+chardet==3.0.4
+coverage==5.0.3
+datadog-checks-base==10.3.0
+datadog-checks-dev==2.4.0
+-e git+https://github.com/DataDog/integrations-extras.git@43a338737021f1a057648b9b4d1030ef0403b7a3#egg=datadog_pihole&subdirectory=pihole
+ddtrace==0.13.0
+idna==2.8
+importlib-metadata==1.5.0
+mock==4.0.1
+more-itertools==8.2.0
+msgpack-python==0.5.6
+packaging==20.1
+pluggy==0.13.1
+prometheus-client==0.3.0
+protobuf==3.7.0
+psutil==5.7.0
+py==1.8.1
+py-cpuinfo==5.0.0
+pyparsing==2.4.6
+pytest==5.3.5
+pytest-benchmark==3.2.3
+pytest-cov==2.8.1
+pytest-mock==2.0.0
+PyYAML==5.1
+requests==2.22.0
+simplejson==3.6.5
+six==1.12.0
+uptime==3.0.1
+urllib3==1.25.8
+wcwidth==0.1.8
+wrapt==1.12.0
+zipp==3.0.0

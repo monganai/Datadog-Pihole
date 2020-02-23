@@ -1,0 +1,118 @@
+action: GLOB, msg: packaging
+cwd: /home/aidan/dd/integrations-extras/pihole
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing datadog_pihole.egg-info/PKG-INFO
+writing dependency_links to datadog_pihole.egg-info/dependency_links.txt
+writing requirements to datadog_pihole.egg-info/requires.txt
+writing top-level names to datadog_pihole.egg-info/top_level.txt
+reading manifest file 'datadog_pihole.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+writing manifest file 'datadog_pihole.egg-info/SOURCES.txt'
+running check
+creating datadog-pihole-0.0.10
+creating datadog-pihole-0.0.10/datadog_checks
+creating datadog-pihole-0.0.10/datadog_checks/pihole
+creating datadog-pihole-0.0.10/datadog_checks/pihole/data
+creating datadog-pihole-0.0.10/datadog_pihole.egg-info
+creating datadog-pihole-0.0.10/tests
+creating datadog-pihole-0.0.10/tests/etc-dnsmasq.d
+creating datadog-pihole-0.0.10/tests/etc-pihole
+copying files to datadog-pihole-0.0.10...
+copying MANIFEST.in -> datadog-pihole-0.0.10
+copying README.md -> datadog-pihole-0.0.10
+copying manifest.json -> datadog-pihole-0.0.10
+copying requirements-dev.txt -> datadog-pihole-0.0.10
+copying requirements.in -> datadog-pihole-0.0.10
+copying setup.py -> datadog-pihole-0.0.10
+copying datadog_checks/__init__.py -> datadog-pihole-0.0.10/datadog_checks
+copying datadog_checks/pihole/__about__.py -> datadog-pihole-0.0.10/datadog_checks/pihole
+copying datadog_checks/pihole/__init__.py -> datadog-pihole-0.0.10/datadog_checks/pihole
+copying datadog_checks/pihole/ddagent-install.log -> datadog-pihole-0.0.10/datadog_checks/pihole
+copying datadog_checks/pihole/pihole.py -> datadog-pihole-0.0.10/datadog_checks/pihole
+copying datadog_checks/pihole/data/conf.yaml.example -> datadog-pihole-0.0.10/datadog_checks/pihole/data
+copying datadog_pihole.egg-info/PKG-INFO -> datadog-pihole-0.0.10/datadog_pihole.egg-info
+copying datadog_pihole.egg-info/SOURCES.txt -> datadog-pihole-0.0.10/datadog_pihole.egg-info
+copying datadog_pihole.egg-info/dependency_links.txt -> datadog-pihole-0.0.10/datadog_pihole.egg-info
+copying datadog_pihole.egg-info/requires.txt -> datadog-pihole-0.0.10/datadog_pihole.egg-info
+copying datadog_pihole.egg-info/top_level.txt -> datadog-pihole-0.0.10/datadog_pihole.egg-info
+copying tests/README.md -> datadog-pihole-0.0.10/tests
+copying tests/__init__.py -> datadog-pihole-0.0.10/tests
+copying tests/conftest.py -> datadog-pihole-0.0.10/tests
+copying tests/docker-compose.yaml -> datadog-pihole-0.0.10/tests
+copying tests/test_pihole.py -> datadog-pihole-0.0.10/tests
+copying tests/etc-dnsmasq.d/01-pihole.conf -> datadog-pihole-0.0.10/tests/etc-dnsmasq.d
+copying tests/etc-pihole/adlists.list -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/dns-servers.conf -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/gravity.list -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.0.raw.githubusercontent.com.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.1.mirror1.malwaredomains.com.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.2.sysctl.org.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.3.s3.amazonaws.com.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.4.s3.amazonaws.com.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.5.hosts-file.net.domains -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/list.preEventHorizon -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/local.list -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/localbranches -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/localversions -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/pihole-FTL.conf -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/pihole-FTL.db -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/regex.list -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/setupVars.conf -> datadog-pihole-0.0.10/tests/etc-pihole
+copying tests/etc-pihole/setupVars.conf.update.bak -> datadog-pihole-0.0.10/tests/etc-pihole
+Writing datadog-pihole-0.0.10/setup.cfg
+creating '.tox/dist/datadog-pihole-0.0.10.zip' and adding 'datadog-pihole-0.0.10' to it
+adding 'datadog-pihole-0.0.10'
+adding 'datadog-pihole-0.0.10/tests'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info'
+adding 'datadog-pihole-0.0.10/datadog_checks'
+adding 'datadog-pihole-0.0.10/setup.py'
+adding 'datadog-pihole-0.0.10/MANIFEST.in'
+adding 'datadog-pihole-0.0.10/PKG-INFO'
+adding 'datadog-pihole-0.0.10/README.md'
+adding 'datadog-pihole-0.0.10/manifest.json'
+adding 'datadog-pihole-0.0.10/setup.cfg'
+adding 'datadog-pihole-0.0.10/requirements.in'
+adding 'datadog-pihole-0.0.10/requirements-dev.txt'
+adding 'datadog-pihole-0.0.10/tests/etc-dnsmasq.d'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole'
+adding 'datadog-pihole-0.0.10/tests/README.md'
+adding 'datadog-pihole-0.0.10/tests/test_pihole.py'
+adding 'datadog-pihole-0.0.10/tests/conftest.py'
+adding 'datadog-pihole-0.0.10/tests/docker-compose.yaml'
+adding 'datadog-pihole-0.0.10/tests/__init__.py'
+adding 'datadog-pihole-0.0.10/tests/etc-dnsmasq.d/01-pihole.conf'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.2.sysctl.org.domains'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.5.hosts-file.net.domains'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/adlists.list'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/dns-servers.conf'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.4.s3.amazonaws.com.domains'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/pihole-FTL.conf'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.preEventHorizon'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.3.s3.amazonaws.com.domains'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/setupVars.conf.update.bak'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/regex.list'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/setupVars.conf'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/gravity.list'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/pihole-FTL.db'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/localversions'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/localbranches'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/local.list'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.0.raw.githubusercontent.com.domains'
+adding 'datadog-pihole-0.0.10/tests/etc-pihole/list.1.mirror1.malwaredomains.com.domains'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info/dependency_links.txt'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info/PKG-INFO'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info/SOURCES.txt'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info/requires.txt'
+adding 'datadog-pihole-0.0.10/datadog_pihole.egg-info/top_level.txt'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole'
+adding 'datadog-pihole-0.0.10/datadog_checks/__init__.py'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/data'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/pihole.py'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/__about__.py'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/__init__.py'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/ddagent-install.log'
+adding 'datadog-pihole-0.0.10/datadog_checks/pihole/data/conf.yaml.example'
+removing 'datadog-pihole-0.0.10' (and everything under it)

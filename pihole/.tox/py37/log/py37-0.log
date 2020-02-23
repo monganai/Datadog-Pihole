@@ -1,0 +1,4 @@
+action: py37, msg: getenv
+cwd: /home/aidan/dd/integrations-extras/pihole/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py37
+created virtual environment in 233ms CPython3Posix(dest=/home/aidan/dd/integrations-extras/pihole/.tox/py37, clear=False, global=False) with seeder FromAppData pip=latest setuptools=latest wheel=latest app_data_dir=/home/aidan/.local/share/virtualenv/seed-v1 via=copy

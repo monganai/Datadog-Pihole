@@ -1,8 +1,21 @@
+import pytest
 from datadog_checks.pihole import PiholeCheck
+from datadog_checks.base import ConfigurationError
 
+@pytest.mark.unit
+def test_config():
+    instance = {}
+    c = PiholeCheck('pihole', {}, [instance])
 
-def test_check(aggregator, instance):
-    check = PiholeCheck('pihole', {}, {})
-    check.check(instance)
+    # empty should fail
+    with pytest.raises(ConfigurationError):
+        c.check(instance)
 
-    aggregator.assert_all_metrics_covered()
+# Testing integration status check using docker
+@pytest.mark.integrations
+@pytest.mark.usefixtures('dd_environment')
+def test_service_check(aggregator, instance):
+    c = PiholeCheck('pihole', {}, [instance])
+
+    c.check(instance)
+    aggregator.assert_service_check('pihole.running', PiholeCheck.OK)
