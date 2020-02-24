@@ -1,0 +1,20 @@
+action: style, msg: envreport
+cwd: /home/aidan/dd/integrations-extras/pihole
+cmd: /home/aidan/dd/integrations-extras/pihole/.tox/style/bin/python -m pip freeze
+appdirs==1.4.3
+attrs==19.3.0
+black==19.10b0
+Click==7.0
+datadog-pihole==0.0.10
+entrypoints==0.3
+flake8==3.7.9
+flake8-bugbear==20.1.4
+flake8-logging-format==0.6.0
+isort==4.3.21
+mccabe==0.6.1
+pathspec==0.7.0
+pycodestyle==2.5.0
+pyflakes==2.1.1
+regex==2020.2.20
+toml==0.10.0
+typed-ast==1.4.1

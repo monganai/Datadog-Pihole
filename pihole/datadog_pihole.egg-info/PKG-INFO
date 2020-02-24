@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: datadog-pihole
-Version: 0.0.10
+Version: 3.14.1
 Summary: The pihole check
 Home-page: https://github.com/DataDog/integrations-extras
 Author: Aidan Mongan

@@ -2,7 +2,6 @@ from datadog_checks.base import AgentCheck
 from datadog_checks.base import ConfigurationError
 
 import requests
-import json
 
 
 class PiholeCheck(AgentCheck):
@@ -16,9 +15,9 @@ class PiholeCheck(AgentCheck):
 
         url = 'http://' + host + '/admin/api.php'  # adding the rest of the URL to the given host parameter
         response = requests.get(url)
-        if response.status_code == 200: #  else is after all the metrics
+        if response.status_code == 200:  # else is after all the metrics
             try:
-                data = response.json() #  try to decode the json response, throw generic error if its not a valid json response
+                data = response.json()  # try to decode the json response, throw generic error if its not a valid json response
             except simplejson.errors.JSONDecodeError:
                 raise ConfigurationError('unexpected response from server, is pihole running?')
                 self.service_check('pihole.running', self.CRITICAL)
@@ -95,7 +94,11 @@ class PiholeCheck(AgentCheck):
                 self.service_check('pihole.running', self.CRITICAL)
 
         else:
-            raise ConfigurationError('Unexpected response from server')  #  if we dont get a response code of '200' raise server side issue
+            raise ConfigurationError('Unexpected response from server')  # if we dont get a response code of '200' raise server side issue
             self.service_check('pihole.running', self.CRITICAL)
+            self.log.warning("not collecting pihole metrics for url %s runtimeError response code was %s",
+                host,
+                response.status_code,
+            )
 
-        pass  #  one run has been completed at this point !
+        pass  # one run has been completed at this point !
