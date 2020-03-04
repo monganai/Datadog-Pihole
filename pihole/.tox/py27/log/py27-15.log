@@ -4,24 +4,27 @@ cmd: /home/aidan/dd/integrations-extras/pihole/.tox/py27/bin/python -m pip freez
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
 atomicwrites==1.3.0
 attrs==19.3.0
+aws-requests-auth==0.4.2
 binary==1.0.0
+botocore==1.13.42
 certifi==2019.11.28
 chardet==3.0.4
 configparser==4.0.2
 contextlib2==0.5.5
 coverage==5.0.3
-datadog-checks-base==10.3.0
-datadog-checks-dev==2.4.0
--e git+https://github.com/DataDog/integrations-extras.git@43a338737021f1a057648b9b4d1030ef0403b7a3#egg=datadog_pihole&subdirectory=pihole
-ddtrace==0.13.0
-docutils==0.16
+datadog-checks-base==11.0.0
+datadog-checks-dev==3.1.0
+-e git+https://github.com/DataDog/integrations-extras.git@ee3116d7e79e4645e868fdc263269a158363c564#egg=datadog_pihole&subdirectory=pihole
+ddtrace==0.32.2
+docutils==0.15.2
+enum34==1.1.6
 funcsigs==1.0.2
 idna==2.8
 importlib-metadata==1.5.0
 ipaddress==1.0.22
+jmespath==0.9.5
 mock==3.0.5
 more-itertools==5.0.0
-msgpack-python==0.5.6
 packaging==20.1
 pathlib2==2.3.5
 pluggy==0.13.1
@@ -35,6 +38,8 @@ pytest==4.6.9
 pytest-benchmark==3.2.3
 pytest-cov==2.8.1
 pytest-mock==2.0.0
+python-dateutil==2.8.0
+pytz==2019.3
 PyYAML==5.1
 requests==2.22.0
 scandir==1.10.0
@@ -43,8 +48,8 @@ simplejson==3.6.5
 six==1.12.0
 statistics==1.0.3.5
 subprocess32==3.5.4
+typing==3.7.4.1
 uptime==3.0.1
 urllib3==1.25.8
 wcwidth==0.1.8
-wrapt==1.12.0
 zipp==1.2.0

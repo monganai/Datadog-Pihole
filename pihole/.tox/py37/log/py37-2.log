@@ -2,10 +2,10 @@ action: py37, msg: developpkg
 cwd: /home/aidan/dd/integrations-extras/pihole
 cmd: /home/aidan/dd/integrations-extras/pihole/.tox/py37/bin/python -m pip install --exists-action w -e .
 Obtaining file:///home/aidan/dd/integrations-extras/pihole
-Requirement already satisfied: datadog-checks-base>=4.2.0 in ./.tox/py37/lib/python3.7/site-packages (from datadog-pihole==0.0.8) (10.3.0)
+Requirement already satisfied: datadog-checks-base>=4.2.0 in ./.tox/py37/lib/python3.7/site-packages (from datadog-pihole==3.14.1) (11.0.0)
 Installing collected packages: datadog-pihole
   Attempting uninstall: datadog-pihole
-    Found existing installation: datadog-pihole 0.0.8
+    Found existing installation: datadog-pihole 3.14.1
     Not uninstalling datadog-pihole at /home/aidan/dd/integrations-extras/pihole, outside environment /home/aidan/dd/integrations-extras/pihole/.tox/py37
     Can't uninstall 'datadog-pihole'. No files were found to uninstall.
   Running setup.py develop for datadog-pihole

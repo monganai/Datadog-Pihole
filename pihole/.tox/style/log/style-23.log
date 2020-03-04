@@ -5,7 +5,7 @@ appdirs==1.4.3
 attrs==19.3.0
 black==19.10b0
 Click==7.0
-datadog-pihole==0.0.8
+datadog-pihole==3.14.1
 entrypoints==0.3
 flake8==3.7.9
 flake8-bugbear==20.1.4

@@ -3,10 +3,10 @@ cwd: /home/aidan/dd/integrations-extras/pihole
 cmd: /home/aidan/dd/integrations-extras/pihole/.tox/py27/bin/python -m pip install --exists-action w -e .
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
 Obtaining file:///home/aidan/dd/integrations-extras/pihole
-Requirement already satisfied: datadog-checks-base>=4.2.0 in ./.tox/py27/lib/python2.7/site-packages (from datadog-pihole==0.0.8) (10.3.0)
+Requirement already satisfied: datadog-checks-base>=4.2.0 in ./.tox/py27/lib/python2.7/site-packages (from datadog-pihole==3.14.1) (11.0.0)
 Installing collected packages: datadog-pihole
   Attempting uninstall: datadog-pihole
-    Found existing installation: datadog-pihole 0.0.8
+    Found existing installation: datadog-pihole 3.14.1
     Not uninstalling datadog-pihole at /home/aidan/dd/integrations-extras/pihole, outside environment /home/aidan/dd/integrations-extras/pihole/.tox/py27
     Can't uninstall 'datadog-pihole'. No files were found to uninstall.
   Running setup.py develop for datadog-pihole

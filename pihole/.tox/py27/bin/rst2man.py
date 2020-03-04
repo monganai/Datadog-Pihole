@@ -1,6 +1,6 @@
 #!/home/aidan/dd/integrations-extras/pihole/.tox/py27/bin/python
 
-# Author:
+# Author: 
 # Contact: grubert@users.sf.net
 # Copyright: This module has been placed in the public domain.
 

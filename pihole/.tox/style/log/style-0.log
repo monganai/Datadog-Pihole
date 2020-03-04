@@ -1,4 +1,4 @@
 action: style, msg: getenv
 cwd: /home/aidan/dd/integrations-extras/pihole/.tox
 cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 style
-created virtual environment in 134ms CPython3Posix(dest=/home/aidan/dd/integrations-extras/pihole/.tox/style, clear=False, global=False) with seeder FromAppData pip=latest setuptools=latest wheel=latest app_data_dir=/home/aidan/.local/share/virtualenv/seed-v1 via=copy
+created virtual environment in 131ms CPython3Posix(dest=/home/aidan/dd/integrations-extras/pihole/.tox/style, clear=False, global=False) with seeder FromAppData pip=latest setuptools=latest wheel=latest app_data_dir=/home/aidan/.local/share/virtualenv/seed-v1 via=copy

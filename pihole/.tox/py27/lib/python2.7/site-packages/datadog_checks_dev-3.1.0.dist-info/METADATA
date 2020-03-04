@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: datadog-checks-dev
+Version: 3.1.0
+Summary: The Datadog Checks Developer Tools
+Home-page: https://github.com/DataDog/integrations-core
+Author: Datadog
+Author-email: packages@datadoghq.com
+License: BSD
+Keywords: datadog agent checks dev tools tests
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: coverage (>=5.0.3)
+Requires-Dist: mock
+Requires-Dist: psutil
+Requires-Dist: PyYAML (>=5.3)
+Requires-Dist: pytest
+Requires-Dist: pytest-benchmark (>=3.2.1)
+Requires-Dist: pytest-cov (>=2.6.1)
+Requires-Dist: pytest-mock
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: six
+Requires-Dist: contextlib2 ; python_version < "3.0"
+Requires-Dist: shutilwhich (==1.1.0) ; python_version < "3.0"
+Requires-Dist: subprocess32 (==3.5.4) ; python_version < "3.0"
+Provides-Extra: cli
+Requires-Dist: appdirs ; extra == 'cli'
+Requires-Dist: atomicwrites ; extra == 'cli'
+Requires-Dist: click ; extra == 'cli'
+Requires-Dist: colorama ; extra == 'cli'
+Requires-Dist: docker-compose (>=1.25) ; extra == 'cli'
+Requires-Dist: in-toto (>=0.4.2) ; extra == 'cli'
+Requires-Dist: pip-tools ; extra == 'cli'
+Requires-Dist: pylint ; extra == 'cli'
+Requires-Dist: Pillow ; extra == 'cli'
+Requires-Dist: pyperclip (>=1.7.0) ; extra == 'cli'
+Requires-Dist: semver ; extra == 'cli'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'cli'
+Requires-Dist: toml (<1.0.0,>=0.9.4) ; extra == 'cli'
+Requires-Dist: tox (>=3.12.1) ; extra == 'cli'
+Requires-Dist: twine (>=1.11.0) ; extra == 'cli'
+Requires-Dist: virtualenv (==20.0.5) ; extra == 'cli'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'cli'
+
+# Datadog Checks Dev
+
+[![Latest PyPI version][1]][2]
+[![Supported Python versions][2]][2]
+[![License][3]][5]
+[![Documentation Status][4]][7]
+
+-----
+
+This is the developer toolkit designed for use by any [Agent-based][5] check or
+integration repository.
+
+## Prerequisites
+
+* Python 3.7+ needs to be available on your system. Python 2.7 is optional.
+* Docker to run the full test suite.
+
+Using a virtual environment is recommended.
+
+## Installation
+
+`datadog-checks-dev` is distributed on [PyPI][6] as a universal wheel
+and is available on Linux, macOS, and Windows, and supports Python 3.7+ and PyPy.
+
+```console
+$ pip install "datadog-checks-dev[cli]"
+```
+
+At this point there should be a working executable, ddev, in your PATH. The help flag shortcut -h is available globally.
+
+## Documentation
+
+Dev docs are hosted on [readthedocs][7]
+
+[1]: https://img.shields.io/pypi/v/datadog-checks-dev.svg
+[2]: https://img.shields.io/pypi/pyversions/datadog-checks-dev.svg
+[3]: https://img.shields.io/pypi/l/datadog-checks-dev.svg
+[4]: https://readthedocs.org/projects/datadog-checks-base/badge/?version=latest
+[5]: https://github.com/DataDog/datadog-agent
+[6]: https://pypi.org
+[7]: https://datadog-checks-base.readthedocs.io/en/latest/datadog_checks_dev.html
+
+
