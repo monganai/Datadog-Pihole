@@ -1,8 +1,17 @@
 # Agent Check: pihole
 
+## Official release
+Official release can be found on integrations-extras: https://github.com/DataDog/integrations-extras/tree/master/pihole
+
 ## Overview
 
 This check monitors [pihole][1] through the Datadog Agent.
+
+
+
+![](https://p-qKFgO2.t2.n0.cdn.getcloudapp.com/items/GGukK0lR/Image%202020-05-06%20at%2010.15.08%20PM.png?v=52c007c545c0e3341bd58916c057505f)
+
+
 
 ## Setup
 
@@ -51,9 +60,11 @@ To install the pihole check on your host:
 
 See [metadata.csv][6] for a list of metrics provided by this check.
 
+![](https://p-qKFgO2.t2.n0.cdn.getcloudapp.com/items/OAub8x2X/Image%202020-05-06%20at%2010.16.46%20PM.png?v=37506212f56c09d84525962af60279f4)
+
 ### Service Checks
 
-pihole does not include any service checks.
+pi-hole.can.connect
 
 ### Events
 
